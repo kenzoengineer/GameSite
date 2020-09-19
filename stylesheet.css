@@ -1,0 +1,111 @@
+﻿/*body {
+    background-image: url("images/background.png");
+    background-attachment: fixed;
+}*/
+
+span.anchor {
+    margin-top: -75px; /* height of nav, in this case 54px */
+    display: block;
+    height: 75px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+.fill {
+    min-height: 100%;
+    height: 100vh;
+}
+
+.fill h1 {
+    text-align: center;
+}
+
+.titleBg {
+    background: url('images/background.png') no-repeat fixed center;
+    background-size: cover;
+}
+.titleBig {
+    font-family: Poppins;
+    margin-bottom: 0px;
+}
+.display-1 {
+    font-size: 150px;
+}
+
+.navbar {
+    background-color: #212529;
+}
+.nav-item:hover {
+    background-color: gold;
+    transition: 0.3s;
+}
+
+.nav-link {
+    font-size: 30px;
+    color:gold;
+}
+.nav-link:hover {
+    color: #212529;
+}
+.midl {
+    background-color: gold;
+}
+.midr {
+    padding:20px;
+    background-color: gold;
+}
+.col {
+    padding: 20px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 40px;
+    color: gold;
+    transition: 0.3s;
+    background-color:black;
+}
+.card {
+    background-color:rgba(33, 37, 41, .9);
+    color: gold;
+}
+
+.col-sm-6 {
+    padding:40px;
+}
+
+.iconcol {
+    text-align:center;
+}
+
+.col-sm-6 i {
+    color:#2a5fa8;
+    text-align:center;
+    font-size:30vw;
+}
+
+.col-sm-6 i:hover{
+    color:black;
+    transition:0.3s;
+}
+
+#section2 {
+    background-color:gold;
+    color:black;
+}
+
+.col-sm-3 {
+    flex-grow: 1;
+    transition: all 400ms ease;
+    flex-shrink: 1;
+}
+.col-sm-9 {
+    flex-grow: 1;
+    transition: all 400ms ease;
+    flex-shrink: 1;
+}
+.col-sm-1 {
+    flex-grow: 1;
+    transition: all 400ms ease;
+    flex-shrink: 1;
+}
+.contactCard {
+    min-height: 100vh;
+}
