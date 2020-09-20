@@ -1,9 +1,4 @@
-﻿/*body {
-    background-image: url("images/background.png");
-    background-attachment: fixed;
-}*/
-
-span.anchor {
+﻿span.anchor {
     margin-top: -75px; /* height of nav, in this case 54px */
     display: block;
     height: 75px; /* height of nav, in this case 54px */
@@ -33,10 +28,15 @@ span.anchor {
 
 .navbar {
     background-color: #212529;
+    text-align:center;
 }
 .nav-item:hover {
     background-color: gold;
     transition: 0.3s;
+}
+
+.navbar-brand {
+    margin-right: 0px;
 }
 
 .nav-link {
@@ -46,7 +46,12 @@ span.anchor {
 .nav-link:hover {
     color: #212529;
 }
+
+.aboutSection {
+    background-color:gold;
+}
 .midl {
+    padding:50px;
     background-color: gold;
 }
 .midr {
@@ -57,7 +62,6 @@ span.anchor {
     padding: 20px;
     font-family: Poppins;
     text-align: center;
-    font-size: 40px;
     color: gold;
     transition: 0.3s;
     background-color:black;
@@ -91,6 +95,10 @@ span.anchor {
     color:black;
 }
 
+#section3 {
+    background-color:black;
+}
+
 .col-sm-3 {
     flex-grow: 1;
     transition: all 400ms ease;
@@ -107,5 +115,47 @@ span.anchor {
     flex-shrink: 1;
 }
 .contactCard {
-    min-height: 100vh;
+    min-height: 45vmin;
+    border-color: #212529;
+    border-width: 0px 5px;
+    border-style: solid;
+}
+
+.contactCard p {
+    text-decoration: none;
+    font-size:4vmin;
+}
+.contactCard a {
+    text-decoration: none;
+    font-size: 5vmin;
+    color: black;
+}
+
+.contactCard a:hover {
+    background-color:gold;
+    color: #8A8A8A;
+    transition: 0.2s;
+}
+
+.cardIcon {
+    padding: 15px;
+    text-align: center;
+    font-size: 15vw;
+    margin: 5vh 0 0 0;
+}
+
+.cardRow {
+    text-align: center;
+    background-color:rgb(255,193,7);
+}
+
+.arrowDown{
+    text-align:center;
+    font-size: 5vw;
+}
+
+.footer {
+    background: url('images/background.png') no-repeat fixed center;
+    background-size: cover;
+    color:black;
 }

@@ -15,6 +15,10 @@ $(document).ready(function () {
 
     var classes = ["col-sm-1", "col-sm-3", "col-sm-9"];
     var delay = 100;
+    $(".card1").children("p").hide(0);
+    $(".card2").children("p").hide(0);
+    $(".card3").children("p").hide(0);
+    $(".card4").children("p").hide(0);
     $(".card1").on('click', function (event) {
         if ($(".card1").attr("class").includes("col-sm-9")) {
             $(".card1").removeClass(classes).addClass("col-sm-3");
